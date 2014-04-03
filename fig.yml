@@ -1,0 +1,7 @@
+task:
+  build: .
+  volumes:
+    - ./task_data:/task_data
+    - ./task_keys:/task_keys
+  ports:
+    - "53589:53589"
